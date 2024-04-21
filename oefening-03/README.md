@@ -23,8 +23,12 @@
    bv. `https://wouterpeetermans.com/iot-programming/api/users/2`
  - Schrijf de response op die je ontvangt. Let daarbij specifiek op de waarde van "state".
 
-*Schrijf hier je response op.*
-
+*{
+    "firstname": "Gino",
+    "lastname": "Sinnaeve",
+    "email": "gino.sinnaeve@student.ap.be",
+    "state": false
+}*
 ### POST-request
 
  - Doe een POST-request naar een student, zoals in de oefening hiervoor (maar ditmaal is het soort request dus POST).
@@ -39,3 +43,10 @@
 ```
  - Verzend de request.
  - Voer dezelfde URL uit als een POST-request. Schrijf de response op die je ontvangt. Let daarbij specifiek op de waarde van "state". De "state" zou op de nieuwe waarde moeten staan.
+ 
+ {
+    "firstname": "Gino",
+    "lastname": "Sinnaeve",
+    "email": "gino.sinnaeve@student.ap.be",
+    "state": true
+}
